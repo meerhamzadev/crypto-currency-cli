@@ -1,6 +1,6 @@
 {
   "name": "@meerhamza1421/crypto-currency-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tool to keep track of crypto currency right from your terminal",
   "bin": {
     "cryptoc": "./bin/index.js"
