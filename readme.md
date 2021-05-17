@@ -1,6 +1,6 @@
 ![something went wrong](./readme-assets/header.jpg)
 <div align="center">
-<h1>crypto-cli 💲</h1> 
+<h1>crypto-currency-cli 💲</h1> 
 </div>
 A tool to keep track of crypto currency right from your terminal.
 
