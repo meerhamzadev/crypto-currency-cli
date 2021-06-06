@@ -2,6 +2,7 @@
   "name": "@meerhamza1421/crypto-currency-cli",
   "version": "1.0.3",
   "description": "A tool to keep track of crypto currency right from your terminal",
+  "main": "./bin/index.js",
   "bin": {
     "cryptoc": "./bin/index.js"
   },
@@ -14,6 +15,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "chalk": "^4.1.1",
+    "cli-welcome": "^2.2.2",
     "commander": "^7.2.0",
     "inquirer": "^8.0.0"
   }
