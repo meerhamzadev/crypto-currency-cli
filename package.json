@@ -1,12 +1,14 @@
 {
   "name": "@meerhamza1421/crypto-currency-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A tool to keep track of crypto currency right from your terminal",
   "main": "./bin/index.js",
   "bin": {
     "cryptoc": "./bin/index.js"
   },
-  "author": "MeerHamza1421",
+  "author": {
+    "name": "MeerHamza1421"
+  },
   "keywords": [
     "cli",
     "crypto-currency"
