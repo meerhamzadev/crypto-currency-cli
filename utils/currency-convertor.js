@@ -24,7 +24,7 @@ const currencyConvertor = async () => {
     const localCurrencyResponse = await axios.get(`https://api.coincap.io/v2/rates/${localCurrency}`);
     const { rateUsd, currencySymbol, symbol } = localCurrencyResponse.data.data;
 
-    console.log(yellow.bold(`\nThe price of ${cryptoCurrency} in ${symbol} is   ${green(((1 / rateUsd) * priceUsd).toFixed(3))}${white(currencySymbol ?? symbol)}\n`));
+    console.log(yellow.bold(`\nThe price of ${cryptoCurrency} in ${symbol} is   ${green(((1 / rateUsd) * priceUsd).toFixed(3))}${white(currencySymbol || symbol)}\n`));
 
 }
 
