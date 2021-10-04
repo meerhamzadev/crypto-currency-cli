@@ -1,9 +1,8 @@
-![something went wrong](./readme-assets/header.jpg)
-<div align="center">
-<h1>crypto-currency-cli 💲</h1> 
-</div>
+![something went wrong](./readme-assets/Banner.png)
+
 A tool to keep track of crypto currency right from your terminal.
 
+---
 ## ⚡ Features
 
 - 🔎 Search about a particular currency
